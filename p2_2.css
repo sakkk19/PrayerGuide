@@ -1,0 +1,1181 @@
+*{
+    margin-top: -25;
+    margin-left: -40;
+    margin-right: 30;
+    padding: 90;  
+    
+       /*  outline: solid 1px red; */
+  
+    
+}
+body {
+    background:#d7dfe2;
+}
+.masjid1 {
+    position: absolute;
+    top: 330;
+    z-index: -1;
+    right: 50;
+}
+.masjid2 {
+    position: absolute;
+    top: 330;
+    z-index: -1;
+    right: 467;
+}
+.masjid3 {
+    position: absolute;
+    top: 330;
+    z-index: -1;
+    left: -225;
+}
+.masjid4 {
+    position: absolute;
+    top: 330;
+    z-index: -2;
+    right: -420;
+    
+    overflow-x:hidden;
+}
+.masjid5 {
+    position: absolute;
+    top: 920;
+    z-index: -2;
+    left: -275;
+  }
+.masjid6 {
+    position: absolute;
+    top: 920;
+    z-index: -3;
+    left: 153;
+}
+.masjid7 {
+    position: absolute;
+    top: 920;
+    z-index: -4;
+    left: 430;
+}
+.masjid8 {
+    position: absolute;
+    top: 920;
+    z-index: -4;
+    right: -430;
+    image-orientation: flip;
+    overflow-x:hidden;
+    
+    
+}
+.places {
+    position: absolute;
+    top: 1520;
+    z-index: -4;
+    left: -275;
+}
+.places3 {
+    position: absolute;
+    top: 1520;
+    z-index: -4;
+    left: 204;
+}
+.places2 {
+    position: absolute;
+    top: 1520;
+    z-index: -2;
+    right: -14;
+}
+.places4 {
+    position: absolute;
+    top: 1520;
+    z-index: -2;
+    right: -430;
+    
+    overflow-x:hidden;
+}
+.places5 {
+    position: absolute;
+    top: 2120;
+    z-index: -2;
+    left: -170;
+}
+.places6 {
+    position: absolute;
+    top: 2120;
+    z-index: -2;
+    left: 204;
+}
+.places7 {
+    position: absolute;
+    top: 2120;
+    z-index: -2;
+    left: 633;
+}
+.places8 {
+    position: absolute;
+    top: 2120;
+    z-index: -2;
+    right: -430;
+    overflow-x:hidden;
+}
+.last1 {
+    position: absolute;
+    top: 2720;
+    z-index: -2;
+    left: -315;
+}
+.last2 {
+    position: absolute;
+    top: 2720;
+    z-index: -2;
+    left: 204;
+}
+.last3 {
+    position: absolute;
+    top: 2720;
+    z-index: -2;
+    left: 633;
+}
+.last4 {
+    position: absolute;
+    top: 2720;
+    z-index: -2;
+    right: -430;
+}
+.title {
+    font-family: Fira Sans;
+    color: white;
+    font-size: 160pt;
+    text-transform: uppercase;
+    left: -70;
+    position: absolute;
+}
+
+.title2 {
+    font-family: Fira Sans;
+    color: white;
+    font-size: 160pt;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 330;
+    left: -62;
+    font-weight: bold;
+}
+#head1 {
+    font-family: Ubuntu;
+    color: white;
+    position: absolute;
+    top: 3500;
+    font-size: 20pt;
+    left: 810;
+}
+.head2 {
+    font-family: Ubuntu;
+    color: white;
+    position: absolute;
+    top: 3785;
+    font-size: 20pt;
+    left: 810;
+}
+.head3 {
+    font-family: Ubuntu;
+    color: white;
+    position: absolute;
+    top: 4070;
+    font-size: 20pt;
+    left: 810;
+}
+#explain {
+    font-family: Ubuntu;
+    color: white;
+    position: absolute;
+    top: -10;
+    font-size: 20pt;
+    left: -40;
+}
+#explain2 {
+    font-family: Ubuntu;
+    color: white;
+    position: absolute;
+    top: 114;
+    font-size: 20pt;
+    left: 970;
+}
+
+    #link-one a:link {
+        color: white;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 3960;
+        left: 58px;
+        display:block;
+        
+    
+    }
+    
+
+    #link-one a:visited {
+        color:#0E5D7F;
+    }
+          
+    #link-one a:hover {
+        color:white;
+          
+    }
+    #link-two a:link {
+        color: #C1B259;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 3960;
+        left: 300px;
+    }
+    #link-two a:visited {
+        color:  #C1B259;
+    }
+          
+    #link-two a:hover {
+        color: white;
+          
+    }
+    #link-three a:link {
+        color: #8C8080;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 3960;
+        left: 560px;
+    }
+    #link-three a:visited {
+        color:  #8C8080;
+    }
+          
+    #link-three a:hover {
+        color: white;
+          
+    }
+
+    #link-four a:link {
+        color: #DD9C47;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 3960;
+        left: 800px;
+    }
+    #link-four a:visited {
+        color: #DD9C47;
+    }
+          
+    #link-four a:hover {
+        color: white;
+          
+    }
+    #link-five a:link {
+        color: black;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 3960;
+        left: 1120px;
+    }
+    #link-five a:visited {
+        color: black;
+    }
+          
+    #link-five a:hover {
+        color: white;
+
+
+
+
+          
+    }
+    #link-six a:link {
+        color: #C11B1B;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 4610;
+        left: 58px;
+    }
+    #link-six a:visited {
+        color: #C11B1B;
+    }
+          
+    #link-six a:hover {
+        color: white;
+          
+    }
+    #link-seven a:link {
+        color: #442828;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 4610;
+        left: 303px;
+    }
+    #link-seven a:visited {
+        color: #442828;
+    }
+          
+    #link-seven a:hover {
+        color: white;
+          
+    }
+    #link-eight a:link {
+        color: #0B420F;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 4610;
+        left: 550px;
+    }
+    #link-eight a:visited {
+        color: #0B420F;
+    }
+          
+    #link-eight a:hover {
+        color: white;
+          
+    }
+    #link-nine a:link {
+        color: #DB6C2E;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 4610;
+        left: 823px;
+    }
+    #link-nine a:visited {
+        color: #DB6C2E;
+    }
+          
+    #link-nine a:hover {
+        color: white;
+          
+    }
+    #link-ten a:link {
+        color: #420942;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 4610;
+        left: 1060px;
+    }
+    #link-ten a:visited {
+        color: #420942;
+    }
+          
+    #link-ten a:hover {
+        color: white;
+      
+        
+
+
+
+
+
+    }
+    #link-eleven a:link {
+        color: #E0CB34;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 5240;
+        left: 51px;
+    }
+    #link-eleven a:visited {
+        color: #E0CB34;
+    }
+          
+    #link-eleven a:hover {
+        color: white;
+          
+    }
+    #link-twelve a:link {
+        color: #474578;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 5240;
+        left: 335px;
+    }
+    #link-twelve a:visited {
+        color: #474578;
+    }
+          
+    #link-twelve a:hover {
+        color: white;
+          
+    }
+    #link-thirteen a:link {
+        color: #06303F;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 5240;
+        left: 575px;
+    }
+    #link-thirteen a:visited {
+        color: #06303F;
+    }
+          
+    #link-thirteen a:hover {
+        color: white;
+          
+    }
+    #link-fourteen a:link {
+        color: #AE26B2;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 5240;
+        left: 870px;
+    }
+    #link-fourteen a:visited {
+        color: #AE26B2;
+    }
+          
+    #link-fourteen a:hover {
+        color: white;
+          
+    }
+    #link-fifteen a:link {
+        color: #895312;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 5240;
+        left: 1085px;
+    }
+    #link-fifteen a:visited {
+        color: #895312;
+    }
+          
+    #link-fifteen a:hover {
+        color: white;
+      
+        
+
+
+
+
+
+
+    }
+    #link-sixteen a:link {
+        color: #DEAB70;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 5885;
+        left: 63px;
+    }
+    #link-sixteen a:visited {
+        color: #DEAB70;
+    }
+          
+    #link-sixteen a:hover {
+        color: white;
+          
+    }
+    #link-seventeen a:link {
+        color: #279EBA;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 5885;
+        left: 335px;
+    }
+    #link-seventeen a:visited {
+        color: #279EBA;
+    }
+          
+    #link-seventeen a:hover {
+        color: white;
+          
+    }
+    #link-eighteen a:link {
+        color: #E0596E;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 5885;
+        left: 575px;
+    }
+    #link-eighteen a:visited {
+        color: #E0596E;
+    }
+          
+    #link-eighteen a:hover {
+        color: white;
+          
+    }
+    #link-nineteen a:link {
+        color: #4E5C21;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 5885;
+        left: 840px;
+    }
+    #link-nineteen a:visited {
+        color: #4E5C21;
+    }
+          
+    #link-nineteen a:hover {
+        color: white;
+          
+    }
+    #link-twenty a:link {
+        color: #72BB6D;
+        font-size: 13px;
+        font-family: Ubuntu;
+        letter-spacing: 1pt;
+        position: absolute;
+        top: 5885;
+        left: 1070px;
+    }
+    #link-twenty a:visited {
+        color:#72BB6D;
+    }
+          
+    #link-twenty a:hover {
+        color: white;
+          
+    }
+
+
+
+
+
+
+
+
+
+
+.bluered {
+    position: absolute;
+    top: 3260px;
+    left: -140px;
+}
+.eleven {
+    position: absolute;
+    top: 3270px;
+    left: 90px;
+}
+.purple {
+    position: absolute;
+    top: 3260px;
+    left: 350px;
+}
+.blueyellow {
+    position: absolute;
+    top: 3270px;
+    left: 600px;
+}
+.blackbeige {
+    position: absolute;
+    top: 3270px;
+    left: 860px;
+
+
+
+
+
+
+
+
+}
+.six {
+    position: absolute;
+    top: 3900px;
+    left: -140px;
+}
+.seven {
+    position: absolute;
+    top: 3900px;
+    left: 90px;
+}
+.eight {
+    position: absolute;
+    top: 3900px;
+    left: 350px;
+}
+.nine {
+    position: absolute;
+    top: 3900px;
+    left: 600px;
+}
+.ten {
+    position: absolute;
+    top: 3900px;
+    left: 860px;
+
+
+
+
+
+
+
+}
+.five {
+    position: absolute;
+    top: 4530px;
+    left: -140px;
+}
+.twelve {
+    position: absolute;
+    top: 4530px;
+    left: 90px;
+}
+.thirteen {
+    position: absolute;
+    top: 4530px;
+    left: 350px;
+}
+.fourteen {
+    position: absolute;
+    top: 4540px;
+    left: 600px;
+}
+.fifteen {
+    position: absolute;
+    top: 4540px;
+    left: 860px;
+
+
+
+
+
+
+
+
+}
+.sixteen {
+    position: absolute;
+    top: 5190px;
+    left: -140px;
+}
+.seventeen {
+    position: absolute;
+    top: 5190px;
+    left: 90px;
+}
+.eighteen {
+    position: absolute;
+    top: 5190px;
+    left: 350px;
+}
+.nineteen {
+    position: absolute;
+    top: 5190px;
+    left: 600px;
+}
+.twenty {
+    position: absolute;
+    top: 5190px;
+    left: 860px;
+}
+
+
+
+
+
+.line {
+    border-bottom: 2px solid white;
+    display: block;
+    position: absolute;
+    top: 6608px;
+    left: 870px;
+    z-index: 1;
+   
+    }
+    .line2 {
+        border-bottom: 2px solid white;
+        display: block;
+        position: absolute;
+        top: 6965px;
+        left: 410px;
+        z-index: 1;
+       
+        }
+        .line3 {
+            border-bottom: 2px solid white;
+            display: block;
+            position: absolute;
+            top: 6915px;
+            left: 840px;
+            z-index: 1;
+           
+           /*  }
+            .line4 {
+                border-bottom: 2px solid rgb(255, 250, 250);
+                display: block;
+                position: absolute;
+                top: 6950px;
+                left: 870px;
+                z-index: 1; */
+ 
+
+  }             
+  .empty {
+    position: absolute;
+    top: 6683px;
+    left: 990px;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+  }
+  .directions {
+    position: absolute;
+    top: 6972px;
+    left: 5px;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+  }      
+  .mat {
+    position: absolute;
+    top: 6990px;
+    left: 972px;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+  }        
+            
+  .prayerroom {
+    top: 6070px;
+    left: -70px; 
+    position: absolute;
+    font-family: Fira Sans;
+    color: white;
+    font-size: 140pt;
+    letter-spacing: 5pt;
+    
+  }  
+  .prayerroom2 {
+    top: 6260px;
+    left: -70px; 
+    position: absolute;
+    font-family: Fira Sans;
+    color: white;
+    font-size: 140pt;
+    text-transform: uppercase;
+  }          
+     
+ 
+.pishie {
+  top: 7360px;
+  left: -70px; 
+  position: absolute;
+  font-family: Fira Sans;
+  color: white;
+  font-size: 140pt;
+  text-transform: uppercase;
+} 
+            
+            
+            
+            
+
+.room {
+    top: 6500px;
+    left: 350px;
+    position: absolute;
+
+}
+.WTP {
+    top: 8600px;
+    left: 350px;
+    position: absolute;
+
+}
+.WTP2 {
+    top: 9350;
+    left: 350px;
+    position: absolute;
+
+}
+.WTP3 {
+    top: 10100px;
+    left: 350px;
+    position: absolute;
+
+}
+.WTP4 {
+    top: 10850px;
+    left: 350px;
+    position: absolute;
+
+}
+.WTP6 {
+    top: 11600px;
+    left: 350px;
+    position: absolute;
+
+}
+.WTP7 {
+    top: 12350px;
+    left: 350px;
+    position: absolute;
+
+}
+.WTP8 {
+    top: 13100px;
+    left: 350px;
+    position: absolute;
+
+
+
+
+}
+.grandcanyon {
+    top: -3765px;
+    left: 220px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+.drexel {
+    top: -3002px;
+    left: 200px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+.meditation {
+    top: -2266px;
+    left: 90px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+.cac {
+    top: -1510px;
+    left: 95px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+.bestie {
+    top: -763px;
+    left: 220px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+.mother {
+    top: -13px;
+    left: 220px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+.sixflags {
+    top: 745px;
+    left: 220px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+.random {
+    top: -4200px;
+    left: -180px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+
+}
+
+.random2 {
+    top: -3800px;
+    left: -180px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+
+.random3 {
+    top:-3200px;
+    left: -180px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+    
+}
+
+.random4 {
+    top:-2600px;
+    left: -180px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+    
+}
+
+.random5 {
+    top:-2000px;
+    left: -180px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+    
+}
+
+.random6 {
+    top:-1400px;
+    left: -180px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+    
+}
+
+.random7 {
+    top:-800px;
+    left: -180px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+
+.random8 {
+    top:-200px;
+    left: -180px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+
+
+.random9 {
+    top:600px;
+    left: -180px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.random10 {
+    top: -4200px;
+    left: 780px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+
+.random11 {
+    top: -3800px;
+    left: 780px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+
+.random12 {
+    top:-3200px;
+    left: 780px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+
+.random13 {
+    top:-2600px;
+    left: 780px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+.random14 {
+    top:-2000px;
+    left: 780px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+
+/* .random15 {
+
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+} */
+.random16 {
+    top:-1400px;
+    left: 780px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+.random17 {
+    top:-800px;
+    left: 780px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+.random18 {
+    top:-200px;
+    left: 780px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+.random19 {
+    top:600px;
+    left: 780px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+.credit {
+    top: 995px;
+    left: 220px;
+    position: absolute;
+    font-family: Ubuntu;
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+    letter-spacing: 1.5pt;
+    text-align: center;
+}
+@media screen and (min-width: 800px) {
+}
